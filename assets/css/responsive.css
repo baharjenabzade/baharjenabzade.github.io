@@ -1,0 +1,77 @@
+@media(max-width:900px){
+
+    .hero{
+        flex-direction:column;
+        text-align:center;
+    }
+
+    .hero-left{
+        width:100%;
+    }
+
+    .hero-right{
+        width:100%;
+        margin-top:50px;
+    }
+
+    .hero-right img{
+        width:280px;
+    }
+
+    .hero-left h1{
+        font-size:3rem;
+    }
+
+    .navbar{
+        padding:20px;
+    }
+
+    .nav-links{
+        gap:20px;
+    }
+}
+
+
+@media(max-width:900px){
+
+    .research-grid{
+        grid-template-columns:1fr;
+    }
+
+    .hero-right::before{
+        width:350px;
+        height:350px;
+    }
+
+    .hero-right img{
+        width:320px;
+    }
+
+    .hero-left h1{
+        font-size:3.2rem;
+        letter-spacing:4px;
+    }
+}
+
+
+@media(max-width:900px){
+
+    .projects-grid{
+        grid-template-columns:1fr;
+    }
+
+    .publication-card{
+        padding:25px;
+    }
+}
+
+@media(max-width:900px){
+
+    .teaching-grid{
+        grid-template-columns:1fr;
+    }
+
+    .timeline{
+        padding-left:20px;
+    }
+}

@@ -120,6 +120,7 @@ body {
     align-items:center;
 }
 
+/*
 .hero-right::before{
     content:"";
     position:absolute;
@@ -137,6 +138,7 @@ body {
     pointer-events:none;
 }
 
+*/
 .hero-right img{
     width:540px;
     max-width:100%;
